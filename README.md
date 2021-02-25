@@ -1,20 +1,14 @@
-# Moment.ts
-
-The Moment.ts library for [Deno](https://deno.land/) that was ported from [moment@2.24.0](https://github.com/moment/moment), Hope you like it.
-
-## Usage
+# Usage
 
 Some cases on the [moment.js](http://momentjs.com/docs/) official website:
 
-### Import
+## Import
 
 ```ts
-import { moment } from "https://deno.land/x/moment/moment.ts";
-// or
-import { moment } from "https://raw.githubusercontent.com/lisniuse/deno_moment/master/moment.ts";
+import { moment } from "https://deno.land/x/deno_ts_moment/mod.ts";
 ```
 
-### Cases
+## Cases
 
 ```ts
 // "2014-09-08T08:02:17-05:00" (ISO 8601)
