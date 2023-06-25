@@ -16,5 +16,5 @@ interface M {
   ): Moment;
 }
 
-const moment = m as M;
-export { moment };
+export const moment = m as M;
+export default moment;
